@@ -6,9 +6,9 @@ function Footer() {
       <div className="container py-vh-4 text-secondary fw-lighter">
         <div className="row">
           <div className="col-12 col-lg-5 py-4 text-center text-lg-start">
-            <a
+            <Link
               className="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center"
-              href="index.html"
+              to="/"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -24,26 +24,26 @@ function Footer() {
               <span className="ms-md-1 mt-1 fw-bolder me-md-5">
                 Cosmic Crafts
               </span>
-            </a>
+            </Link>
           </div>
           <div className="col border-end border-dark">
             <span className="h6">Company</span>
             <ul className="nav flex-column">
               <li className="nav-item">
-                <a href="#about" className="link-fancy link-fancy-light">
+                <Link to="/aboutus" className="link-fancy link-fancy-light">
                   About us
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a href="#" className="link-fancy link-fancy-light">
-                  Career
-                </a>
+                <Link to="/services" className="link-fancy link-fancy-light">
+                  Services
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="#contact" className="link-fancy link-fancy-light">
+                <Link to="/contactus" className="link-fancy link-fancy-light">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -51,33 +51,33 @@ function Footer() {
             <span className="h6">Services</span>
             <ul className="nav flex-column">
               <li className="nav-item">
-                <Link to="services" className="link-fancy link-fancy-light">
+                <Link to="/services" className="link-fancy link-fancy-light">
                   Posters
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="services" className="link-fancy link-fancy-light">
+                <Link to="/services" className="link-fancy link-fancy-light">
                   Visiting Card
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link to="services" className="link-fancy link-fancy-light">
+                <Link to="/services" className="link-fancy link-fancy-light">
                   Logo Design
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="services" className="link-fancy link-fancy-light">
+                <Link to="/services" className="link-fancy link-fancy-light">
                   Website Development
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="services" className="link-fancy link-fancy-light">
+                <Link to="/services" className="link-fancy link-fancy-light">
                   Business Card
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="services" className="link-fancy link-fancy-light">
+                <Link to="/services" className="link-fancy link-fancy-light">
                   More
                 </Link>
               </li>

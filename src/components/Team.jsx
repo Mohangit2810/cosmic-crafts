@@ -157,6 +157,12 @@ function Team() {
             >
               <i className="bi bi-instagram"></i>
             </a>
+            <a
+              href="http://linkedin.com/in/agnel-joshua-raj-229892230/"
+              target="blank"
+            >
+              <i className="bi bi-linkedin"></i>
+            </a>
             <a href="mailto:agneldavidraj@gmail.com" target="blank">
               <i className="bi bi-envelope-fill"></i>
             </a>
@@ -165,7 +171,7 @@ function Team() {
         <div className="member bg-black">
           <img src="/images/team/arun.jpg" alt="p" />
           <h4>Arun Kumar</h4>
-          <span>Communication Manager</span>
+          <span>Graphic Designer and Art Director</span>
           <p>
             &#34;As the Communication Manager, I orchestrate seamless
             communication strategies, fostering connection and engagement to

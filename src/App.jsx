@@ -3,10 +3,12 @@ import ServiceList from "./pages/ServiceList";
 import HomePage from "./pages/HomePage";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
+import ScrollToTop from "./assets/scrollToTop.jsx";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="aboutus" element={<AboutUs />} />

@@ -25,12 +25,12 @@ $bp-lg: 800px;
 
   @media (min-width: $bp-md) {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
+    grid-auto-rows: 1fr;
   }
 
   @media (min-width: $bp-lg) {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
+    grid-auto-rows: 1fr;
   }
 }
 
