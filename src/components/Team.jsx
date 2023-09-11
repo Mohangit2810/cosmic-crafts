@@ -2,9 +2,9 @@
 
 function Team() {
   return (
-    <div className="team">
-      <div className="team-2">
-        <div className="member bg-black">
+    <div className="container">
+      <div className="row">
+        <div className="member col bg-black">
           <img src="/images/team/gokulraja.jpg" alt="p" />
           <h4>Gokul Raja</h4>
           <span>Chief Executive Officer</span>
@@ -31,7 +31,7 @@ function Team() {
             </a>
           </div>
         </div>
-        <div className="member bg-black">
+        <div className="member col bg-black">
           <img src="/images/team/bharani.jpg" alt="p" />
           <h4>Bharanitharan</h4>
           <span>Cheif Designer</span>
@@ -59,8 +59,8 @@ function Team() {
           </div>
         </div>
       </div>
-      <div className="team-container">
-        <div className="member bg-black">
+      <div className="row">
+        <div className="col bg-black member">
           <img src="/images/team/mohan.jpg" alt="p" />
           <h4>MohanRaji</h4>
           <span>Web Developer</span>
@@ -90,7 +90,7 @@ function Team() {
             </a>
           </div>
         </div>
-        <div className="member bg-black">
+        <div className="member col bg-black">
           <img src="/images/team/raghul.jpg" alt="p" />
           <h4>Raghul</h4>
           <span>Application Developer</span>
@@ -118,7 +118,7 @@ function Team() {
             </a>
           </div>
         </div>
-        <div className="member bg-black">
+        <div className="member col bg-black">
           <img src="/images/team/rahulraj.jpg" alt="p" />
           <h4>Rahul Raj</h4>
           <span>IT Technical Support</span>
@@ -141,7 +141,9 @@ function Team() {
             </a>
           </div>
         </div>
-        <div className="member bg-black">
+      </div>
+      <div className="row">
+        <div className="member col bg-black">
           <img src="/images/team/agnel.jpg" alt="p" />
           <h4>Agnel David</h4>
           <span>Marketing and Strategist</span>
@@ -168,7 +170,7 @@ function Team() {
             </a>
           </div>
         </div>
-        <div className="member bg-black">
+        <div className="member col bg-black">
           <img src="/images/team/arun.jpg" alt="p" />
           <h4>Arun Kumar</h4>
           <span>Graphic Designer and Art Director</span>
@@ -189,7 +191,7 @@ function Team() {
             </a>
           </div>
         </div>
-        <div className="member bg-black">
+        <div className="member col bg-black">
           <img src="/images/team/tarun.jpg" alt="p" />
           <h4>Tarun</h4>
           <span>Entrepreneur Investor</span>

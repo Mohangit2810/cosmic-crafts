@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 function Services() {
   return (
-    <div className="bg-cosmic-dark py-vh-3">
-      <div className="container bg-cosmic-dark px-vw-5 py-vh-3 rounded-5 shadow">
+    <div className="bg-black py-vh-3">
+      <div className="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
         <div className="row gx-5">
           <div className="col-12 col-md-6">
             <div className="card bg-transparent mb-5" data-aos="zoom-in-up">
-              <div className="bg-cosmic-gray shadow rounded-5 p-0">
+              <div className="bg-dark shadow rounded-5 p-0">
                 <img
                   src="/images/service-flyer.jpg"
                   width="582"
@@ -31,7 +31,7 @@ function Services() {
             </div>
 
             <div className="card bg-transparent" data-aos="zoom-in-up">
-              <div className="bg-cosmic-gray shadow rounded-5 p-0">
+              <div className="bg-dark shadow rounded-5 p-0">
                 <img
                   src="/images/service-menu.jpg"
                   width="582"
@@ -54,7 +54,7 @@ function Services() {
               </div>
             </div>
             <div className="card bg-transparent mt-5" data-aos="zoom-in-up">
-              <div className="bg-cosmic-gray shadow rounded-5 p-0">
+              <div className="bg-dark shadow rounded-5 p-0">
                 <img
                   src="/images/service-logo.jpg"
                   width="582"
@@ -109,7 +109,7 @@ function Services() {
               className="card bg-transparent mb-5 mt-5"
               data-aos="zoom-in-up"
             >
-              <div className="bg-cosmic-gray shadow rounded-5 p-0">
+              <div className="bg-dark shadow rounded-5 p-0">
                 <img
                   src="/images/service-bookcover.jpg"
                   width="582"
@@ -133,7 +133,7 @@ function Services() {
             </div>
 
             <div className="card bg-transparent" data-aos="zoom-in-up">
-              <div className="bg-cosmic-gray shadow rounded-5 p-0">
+              <div className="bg-dark shadow rounded-5 p-0">
                 <img
                   src="/images/service-website.jpg"
                   width="582"

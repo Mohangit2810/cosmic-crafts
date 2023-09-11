@@ -2,7 +2,7 @@ function Hero() {
   return (
     <div
       id="hero"
-      className="w-100 overflow-hidden position-relative bg-image bg-cosmic text-white"
+      className="w-100 overflow-hidden position-relative bg-image bg-black text-white"
       style={{
         backgroundImage: `url(/images/hero.png)`,
         backgroundSize: "cover",

@@ -5,7 +5,7 @@ import Team from "../components/Team";
 function AboutUs() {
   return (
     <body
-      className="bg-cosmic-dark text-white mt-0"
+      className="bg-black text-white mt-0"
       data-bs-spy="scroll"
       data-bs-target="#navScroll"
     >

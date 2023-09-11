@@ -17,9 +17,9 @@
   background: transparent;
 }
 
-.navbar-scroll {
-  background-color: #210535;
-}
+/* .navbar-scroll {
+  background-color: rgb(32, 32, 32);
+} */
 
 .logo-bold {
   font-family: "Qwitcher Grypen", cursive;
@@ -13692,7 +13692,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team .member {
+.member {
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
@@ -13700,45 +13700,45 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   background: #fff;
 }
 
-.team .member img {
+.member img {
   max-width: 100%;
   border-radius: 5%;
   margin: 0 0 30px 0;
 }
 
-.team .member h4 {
+.member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-.team .member span {
+.member span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.team .member p {
+.member p {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
   color: #aaaaaa;
 }
 
-.team .member .social {
+.member .social {
   margin-top: 15px;
 }
 
-.team .member .social a {
+.member .social a {
   color: #919191;
   transition: 0.3s;
 }
 
-.team .member .social a:hover {
+.member .social a:hover {
   color: #5cb874;
 }
 
-.team .member .social i {
+.member .social i {
   font-size: 18px;
   margin: 0 2px;
 }

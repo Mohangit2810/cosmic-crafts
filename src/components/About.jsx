@@ -42,7 +42,7 @@ function About() {
           </div>
         </div>
       </div> */}
-      <div id="about" className="bg-cosmic-dark">
+      <div id="about" className="bg-dark">
         <div className="container px-vw-5 py-vh-5">
           <div className="row d-flex align-items-center">
             <div className="col-12 col-lg-7 text-lg-end" data-aos="fade-right">

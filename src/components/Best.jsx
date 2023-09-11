@@ -1,6 +1,6 @@
 function Best() {
   return (
-    <div className="bg-cosmic-gray position-relative">
+    <div className="bg-dark position-relative">
       <div className="container px-vw-5 py-vh-5">
         <div className="row d-flex align-items-center">
           <div className="col-12 col-lg-7">
@@ -24,7 +24,7 @@ function Best() {
             />
           </div>
           <div
-            className="col-12 col-lg-5 bg-cosmic-gray rounded-5 py-5"
+            className="col-12 col-lg-5 bg-dark rounded-5 py-5"
             data-aos="fade"
           >
             <span className="h5 text-secondary fw-lighter">

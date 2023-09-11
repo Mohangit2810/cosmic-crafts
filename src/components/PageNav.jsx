@@ -2,9 +2,6 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function PageNav() {
-  // const [click, setClick] = useState(false);
-  // const handleClick = () => setClick(!click);
-  // Change nav color when scrolling
   const [color, setColor] = useState(false);
   const changeColor = () => {
     if (window.scrollY >= 90) {
@@ -20,7 +17,7 @@ function PageNav() {
       id="navScroll"
       className={
         color
-          ? "navbar navbar-dark navbar-scroll fixed-top px-vw-5 d-block"
+          ? "navbar navbar-dark bg-black fixed-top px-vw-5 d-block"
           : "navbar navbar-dark  fixed-top px-vw-5 d-block"
       }
       tabIndex="0"
