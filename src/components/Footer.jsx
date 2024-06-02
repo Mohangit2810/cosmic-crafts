@@ -78,7 +78,7 @@ function Footer() {
               </li>
               <li className="nav-item">
                 <Link to="/services" className="link-fancy link-fancy-light">
-                  More
+                  All Services
                 </Link>
               </li>
             </ul>

@@ -65,7 +65,7 @@ function About() {
                   to="services"
                   className="link-fancy link-fancy-light me-2"
                 >
-                  Tell me more
+                  Learn about our services
                 </Link>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ function About() {
                   to="/services"
                   className="link-fancy link-fancy-light me-2"
                 >
-                  Tell me more
+                  Learn about our services
                 </Link>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
